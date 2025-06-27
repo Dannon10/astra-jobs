@@ -1,3 +1,5 @@
+'use client';
+
 import { notFound } from "next/navigation";
 import { Job } from "@/types/job";
 import { fetchJobs } from "@/lib/fetchJobs";
