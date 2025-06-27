@@ -1,5 +1,3 @@
-'use client';
-
 import { notFound } from "next/navigation";
 import { Job } from "@/types/job";
 import { fetchJobs } from "@/lib/fetchJobs";
@@ -17,7 +15,7 @@ interface JobDetailProps {
 export const dynamicParams = true;
 
 export default async function JobDetail({ params }: JobDetailProps) {
-    const { id } = await params; 
+    const { id } = await params;
 
     const jobs: Job[] = await fetchJobs();
     const job = jobs.find(job => String(job.id) === id);
