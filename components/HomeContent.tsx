@@ -1,4 +1,3 @@
-// components/HomeContent.tsx
 'use client';
 
 import Navbar from './Navbar';
