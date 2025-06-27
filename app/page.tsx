@@ -35,7 +35,7 @@ export default function Home() {
     }
 
     router.replace(`/?${params.toString()}`);
-  }, [searchQuery, selectedTypes]);
+  }, [searchQuery, selectedTypes, router, searchParams]); // Added missing dependencies
 
   useEffect(() => {
     fetchJobs().then(data => setJobs(data));
@@ -61,8 +61,8 @@ export default function Home() {
         </div>
       ) : (
         <JobFilter
-          jobs={filteredJobs} 
-          allJobs={jobs}      
+          jobs={filteredJobs}
+          allJobs={jobs}        
           selectedTypes={selectedTypes}
           setSelectedTypes={setSelectedTypes}
         />
