@@ -6,6 +6,7 @@
     border-radius: 0.75rem;
     font-family: 'Inter', sans-serif;
     color: #1f2937;
+    min-height: 100dvh;
 }
 
 .det {
