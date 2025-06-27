@@ -7,15 +7,15 @@ import { MdOutlineLocationOn } from 'react-icons/md';
 import styles from './JobDetail.module.css';
 
 interface JobDetailProps {
-    params: {
+    params: Promise<{
         id: string;
-    };
+    }>;
 }
 
 export const dynamicParams = true;
 
 export default async function JobDetail({ params }: JobDetailProps) {
-    const { id } = params;
+    const { id } = await params; 
 
     const jobs: Job[] = await fetchJobs();
     const job = jobs.find(job => String(job.id) === id);
