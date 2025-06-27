@@ -1,0 +1,175 @@
+.jobDetailContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    font-family: 'Inter', sans-serif;
+    color: #1f2937;
+}
+
+.det {
+    padding: 1rem 2rem;
+}
+
+.filterHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 1rem;
+    background-color: #F1F2F4;
+}
+
+.filterHeader h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.backButton button {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.backButton button:hover {
+    background-color: #f9fafb;
+}
+
+.jobHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem;
+    margin-top: 5rem;
+}
+
+.jobTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.jobTitle h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.jobTitle p {
+    font-size: 1.5rem;
+    color: #6b7280;
+    margin-top: 0.25rem;
+}
+
+.jobCompanyLocation {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.jobLocation {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.jobType {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    background-color: #E5E7EB;
+    color: #4B5563;
+}
+
+.internship {
+    background-color: #DBEAFE;
+    color: #0051ff;
+}
+
+.fulltime {
+    background-color: #D1FAE5;
+    color: #0BA02C;
+}
+
+.parttime {
+    background-color: #FEF3C7;
+    color: #92400E;
+}
+
+.contract {
+    background-color: #EDE9FE;
+    color: #6B21A8;
+}
+
+.jobMeta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.jobMeta p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.35rem;
+    color: #374151;
+}
+
+.jobDescription h2,
+.requirements h2,
+.skills h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.jobDescription p,
+.requirements ul,
+.skills ul {
+    font-size: 1.35rem;
+    line-height: 1.7;
+    color: #4b5563;
+}
+
+.requirements ul,
+.skills ul {
+    padding-left: 1.25rem;
+    list-style-type: disc;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .jobHead {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .jobCompanyLocation {
+        gap: 0.5rem;
+        padding-top: .5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .jobTitle h1 {
+        font-size: 2.2rem;
+    }
+
+    .jobDescription h2,
+    .requirements h2,
+    .skills h2 {
+        font-size: 1.75rem;
+    }
+
+    .jobDescription p,
+    .requirements ul,
+    .skills ul {
+        font-size: 1.2rem;
+        line-height: 1.7;
+    }
+}

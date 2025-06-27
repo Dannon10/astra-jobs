@@ -1,0 +1,188 @@
+.jobFilterContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  overflow: hidden;
+  min-height: 80dvh;
+}
+
+.filterHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  background-color: #f1f2f4;
+  position: relative;
+}
+
+.filterHeader h2 {
+  font-size: 1.5rem;
+}
+
+.filterHeader h2,
+.filter {
+  padding: 0 3rem;
+}
+
+.filterHeader button {
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.filterButton svg {
+  pointer-events: none;
+}
+
+.filter {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.filterButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.375rem;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filterButton:hover {
+  background-color: #f9fafb;
+  border-color: #d1d5db;
+}
+
+.filterDropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  height: 20rem;
+  width: 20rem;
+  min-width: 15rem;
+  border-radius: 0.375rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  z-index: 50;
+  overflow: hidden;
+  transform-origin: top;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filterDropdownOpen {
+  opacity: 1;
+  transform: translateY(0) scaleY(1);
+  max-height: 30rem;
+  margin-top: 0.25rem;
+  padding: 2rem;
+}
+
+.filterDropdownClosed {
+  opacity: 0;
+  transform: translateY(-10px) scaleY(0.95);
+  max-height: 0;
+  margin-top: 0;
+  overflow: hidden;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.filterCheckbox {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.filterCheckbox:last-child {
+  border-bottom: none;
+}
+
+.filterCheckbox:hover {
+  background-color: #f9fafb;
+}
+
+.filterCheckbox input[type='checkbox'] {
+  display: flex;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  border: 2px solid #d1d5db;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+  padding: 1.2rem;
+  accent-color: #3b82f6;
+}
+
+
+.filterCheckbox input[type='checkbox'] {
+  padding: 1.2rem;
+  accent-color: #3b82f6;
+}
+
+.filterButton:has(+ .filterDropdownOpen) {
+  background-color: #f3f4f6;
+  border-color: #3b82f6;
+}
+
+.jobList {
+  padding: 2rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .jobList {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .filterHeader h2 {
+    font-size: 1.4rem;
+  }
+
+  .filterButton {
+    width: 100%;
+  }
+
+  .filterDropdown {
+    width: 18rem;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .filterButton {
+    width: 100%;
+  }
+
+  .filterDropdown {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .filterHeader h2 {
+    font-size: 1.3rem;
+  }
+
+  .filterCheckbox {
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,28 @@
+.footer {
+    padding: 2rem 1.5rem;
+    text-align: center;
+    font-size: 1.35rem;
+    color: #fff;
+    background-color: #18191C;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 4rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer{
+        font-size: 1.15rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer{
+        font-size: 1rem;
+    }
+}

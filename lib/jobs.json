@@ -1,0 +1,523 @@
+[
+    {
+        "id": 1,
+        "title": "Frontend Developer",
+        "company": "OpenAI",
+        "location": "Remote",
+        "type": "Full-Time",
+        "description": "Join OpenAI’s frontend team to craft seamless, accessible, and performant user interfaces using modern frameworks. You’ll work closely with product managers, designers, and researchers to ship features that enhance user experience and scale across web platforms. Expect to participate in code reviews, maintain design consistency, and improve developer tooling as part of a fast-moving agile environment.",
+        "requirements": [
+            "3+ years of experience building scalable web applications",
+            "Expertise in React, TypeScript, and modern ES6+ JavaScript",
+            "Strong understanding of web performance, accessibility (a11y), and security best practices",
+            "Experience with testing frameworks like Jest, React Testing Library, or Cypress",
+            "Ability to translate product/design specs into robust interfaces",
+            "Strong communication and cross-functional collaboration skills"
+        ],
+        "postedAt": "2025-06-20",
+        "salary": "$100k - $130k",
+        "skills": [
+            "React",
+            "TypeScript",
+            "Web Accessibility",
+            "Testing (Jest, Cypress)",
+            "Performance Optimization",
+            "Design Systems",
+            "Agile Development"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "UI Engineer",
+        "company": "Figma",
+        "location": "San Francisco, CA",
+        "type": "Contract",
+        "description": "As a UI Engineer at Figma, you'll bridge the gap between design and engineering. You'll own the development of polished, high-performance UI components that feel intuitive and delightful. You’ll collaborate with product designers and platform engineers to ensure seamless integration of design systems and support accessibility at scale.",
+        "requirements": [
+            "Advanced CSS/SASS skills and deep understanding of layout techniques (Grid, Flexbox)",
+            "Proven experience building and maintaining design systems",
+            "Understanding of WCAG and ARIA for inclusive design",
+            "Proficiency in modern JavaScript and modular architecture",
+            "Excellent attention to detail and a passion for clean UI"
+        ],
+        "postedAt": "2025-06-18",
+        "salary": "$80/hr",
+        "skills": [
+            "CSS3",
+            "Design Systems",
+            "Accessibility (WCAG)",
+            "Responsive Design",
+            "JavaScript",
+            "UI Architecture",
+            "Cross-Browser Compatibility"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Junior Frontend Intern",
+        "company": "Heabron",
+        "location": "Lagos, Nigeria",
+        "type": "Internship",
+        "description": "Start your frontend journey with Heabron by working alongside experienced developers on real-world projects. You’ll learn how to structure scalable web components, participate in code reviews, and understand agile workflows. This internship provides a mentorship-driven environment focused on growth, technical fundamentals, and best practices.",
+        "requirements": [
+            "Basic understanding of HTML5, CSS3, and JavaScript fundamentals",
+            "Willingness to learn modern frontend frameworks like React",
+            "Strong communication and eagerness to collaborate in a team",
+            "Attention to detail and problem-solving mindset",
+            "Familiarity with version control tools like Git (a plus)"
+        ],
+        "postedAt": "2025-06-15",
+        "salary": "₦100,000/month",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Git (Basic)",
+            "Responsiveness",
+            "Team Collaboration",
+            "Agile Exposure"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "React Native Developer",
+        "company": "Spotify",
+        "location": "Berlin, Germany",
+        "type": "Full-Time",
+        "description": "Spotify is looking for a React Native Developer to craft high-quality, cross-platform mobile applications. You'll be responsible for implementing smooth animations, optimizing performance across devices, and ensuring a native-like user experience. Collaborate with backend engineers and designers in a fast-paced environment.",
+        "requirements": [
+            "Proficiency with React Native and Expo",
+            "Experience creating performant mobile UIs and animations",
+            "Familiarity with state management (e.g., Redux, Zustand)",
+            "Knowledge of mobile-specific debugging and profiling tools",
+            "Strong grasp of cross-platform differences and native module bridging"
+        ],
+        "postedAt": "2025-06-10",
+        "salary": "€90,000/year",
+        "skills": [
+            "React Native",
+            "Mobile Development",
+            "Animations",
+            "Redux",
+            "Cross-Platform Optimization",
+            "REST APIs",
+            "Debugging Tools"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Web Developer",
+        "company": "Freelance",
+        "location": "Remote",
+        "type": "Part-Time",
+        "description": "As a Freelance Web Developer, you'll work with small businesses to design, build, and maintain professional websites. You'll independently manage client communication, provide technical guidance, and ensure mobile-friendly, SEO-optimized sites using modern no-code/low-code tools or custom HTML/CSS/JS stacks.",
+        "requirements": [
+            "Experience with WordPress, Wix, or Webflow",
+            "Strong client communication and requirement-gathering skills",
+            "Solid understanding of responsive design and basic SEO",
+            "Ability to meet deadlines and juggle multiple projects",
+            "Knowledge of page speed optimization and CMS management"
+        ],
+        "postedAt": "2025-06-05",
+        "salary": "$40/hr",
+        "skills": [
+            "WordPress",
+            "Webflow",
+            "Client Communication",
+            "SEO",
+            "Responsive Design",
+            "CMS Management",
+            "Time Management"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Frontend Intern",
+        "company": "Notion",
+        "location": "San Francisco, CA",
+        "type": "Internship",
+        "description": "Join Notion’s internship program to help build collaborative, beautiful interfaces. You'll get hands-on experience in React development, participate in design discussions, and learn to contribute clean code within a production-grade codebase.",
+        "requirements": [
+            "Basic knowledge of React and JavaScript ES6+",
+            "Familiarity with Tailwind CSS or similar utility-first CSS frameworks",
+            "Understanding of component-driven development",
+            "Desire to learn and contribute to real projects",
+            "Strong collaboration and communication skills"
+        ],
+        "postedAt": "2025-05-30",
+        "salary": "$3,000/month",
+        "skills": [
+            "React",
+            "Tailwind CSS",
+            "JavaScript",
+            "Component Design",
+            "Team Collaboration",
+            "Git",
+            "Version Control"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Full Stack Developer",
+        "company": "Netflix",
+        "location": "Los Gatos, CA",
+        "type": "Full-Time",
+        "description": "Join Netflix’s core video player team as a Full Stack Developer. You'll design and maintain features across the stack, ensuring smooth playback performance and improving scalability of backend services. You’ll work closely with QA, product, and engineering to build robust, testable code.",
+        "requirements": [
+            "Strong experience with Node.js, Express, and React",
+            "Experience with MongoDB or similar NoSQL databases",
+            "Familiarity with cloud services like AWS or GCP",
+            "Understanding of video streaming and optimization principles",
+            "Proficient in writing unit and integration tests"
+        ],
+        "postedAt": "2025-05-25",
+        "salary": "$150k",
+        "skills": [
+            "Node.js",
+            "React",
+            "MongoDB",
+            "Cloud Infrastructure",
+            "Streaming Optimization",
+            "API Design",
+            "Testing (Unit & Integration)"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Frontend Engineer",
+        "company": "Twitter",
+        "location": "Remote",
+        "type": "Contract",
+        "description": "Work on building interactive UI components for Twitter’s social features. This role focuses on high-performance rendering, responsive design, and building user-facing features at scale in Next.js. You'll operate in an agile, experimental engineering environment.",
+        "requirements": [
+            "Expertise in React and Next.js (SSR/ISR)",
+            "Experience with Lighthouse and performance audits",
+            "Strong grasp of frontend security (XSS, CSRF)",
+            "Familiarity with GraphQL and REST APIs",
+            "Ability to work asynchronously with distributed teams"
+        ],
+        "postedAt": "2025-05-20",
+        "salary": "$75/hr",
+        "skills": [
+            "Next.js",
+            "React",
+            "Performance Optimization",
+            "GraphQL",
+            "Security",
+            "Testing",
+            "Remote Collaboration"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Web Intern",
+        "company": "Heabron",
+        "location": "Remote",
+        "type": "Internship",
+        "description": "Join a growing engineering team at Heabron and assist in developing lightweight pages, supporting CI/CD pipelines, and learning how professional codebases work. This is an ideal role for beginners aiming to build strong frontend foundations with mentorship and live project exposure.",
+        "requirements": [
+            "Familiarity with HTML, CSS, and basic JavaScript",
+            "Basic Git knowledge (branching, commits)",
+            "Willingness to participate in code reviews and team calls",
+            "Attention to detail and eagerness to learn",
+            "Understanding of responsive design principles"
+        ],
+        "postedAt": "2025-05-19",
+        "salary": "₦90,000/month",
+        "skills": [
+            "HTML",
+            "CSS",
+            "Git",
+            "CI/CD Basics",
+            "Responsive Layouts",
+            "Mentorship Collaboration",
+            "Team Communication"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Frontend Developer",
+        "company": "Amazon",
+        "location": "Seattle, WA",
+        "type": "Full-Time",
+        "description": "Help build high-scale, customer-facing experiences on Amazon’s core web platform. As a frontend developer, you'll work on reusable UI components, improve loading speeds, and implement new features that impact millions of users globally.",
+        "requirements": [
+            "Proficient in React, TypeScript, and Redux",
+            "Experience with scalable frontend architecture",
+            "Ability to write testable, modular code",
+            "Strong attention to performance metrics and optimization",
+            "Comfort working in CI/CD environments"
+        ],
+        "postedAt": "2025-05-15",
+        "salary": "$120k",
+        "skills": [
+            "React",
+            "TypeScript",
+            "Redux",
+            "Performance Engineering",
+            "Modular Architecture",
+            "Testing",
+            "CI/CD"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Software Engineer",
+        "company": "Microsoft",
+        "location": "Redmond, WA",
+        "type": "Full-Time",
+        "description": "Be part of Microsoft Office's modern frontend experience team. You'll help build reusable components, fine-tune performance, and implement accessibility-compliant features used by millions worldwide.",
+        "requirements": [
+            "Deep understanding of frontend performance techniques",
+            "Strong React and JavaScript (ES6+) skills",
+            "Experience with unit, snapshot, and E2E testing",
+            "Accessibility (ARIA, keyboard navigation, screen reader support)",
+            "Experience working in agile sprints with Git-based workflows"
+        ],
+        "postedAt": "2025-05-10",
+        "salary": "$135k",
+        "skills": [
+            "React",
+            "Accessibility",
+            "Web Performance",
+            "Component Architecture",
+            "Testing (Jest, E2E)",
+            "Git Workflow",
+            "Agile"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Frontend Intern",
+        "company": "Trello",
+        "location": "Remote",
+        "type": "Internship",
+        "description": "Contribute to Trello's product interface by shipping minor features and bug fixes. You’ll learn real-world frontend development using React and SCSS while collaborating on a widely used productivity tool.",
+        "requirements": [
+            "Understanding of React components and state",
+            "Familiarity with SCSS or CSS preprocessors",
+            "Strong problem-solving attitude",
+            "Eagerness to learn from feedback and code reviews",
+            "Clear communication in a remote environment"
+        ],
+        "postedAt": "2025-05-05",
+        "salary": "$2,500/month",
+        "skills": [
+            "React",
+            "SCSS",
+            "Git",
+            "Bug Fixing",
+            "Remote Collaboration",
+            "Code Reviews",
+            "Product Thinking"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "UI/UX Designer & Developer",
+        "company": "Upwork Client",
+        "location": "Remote",
+        "type": "Part-Time",
+        "description": "Take full ownership of designing and building a lightweight admin panel for a SaaS product. Collaborate with non-technical clients to translate business needs into clean, functional UIs, using Figma and React.",
+        "requirements": [
+            "Proficiency in Figma and design hand-off tools",
+            "React development with styled-components or CSS Modules",
+            "Strong understanding of usability and UX flows",
+            "Ability to work independently with minimal supervision",
+            "Experience handling small-scale freelance projects"
+        ],
+        "postedAt": "2025-05-02",
+        "salary": "$35/hr",
+        "skills": [
+            "Figma",
+            "React",
+            "UI/UX Design",
+            "CSS-in-JS",
+            "Client Interaction",
+            "Component Design",
+            "Freelancing"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "React Developer",
+        "company": "Stripe",
+        "location": "Dublin, Ireland",
+        "type": "Full-Time",
+        "description": "Join Stripe to work on highly critical interfaces that power global payments. Build complex, maintainable React components integrated with GraphQL APIs in a production-grade environment.",
+        "requirements": [
+            "Strong expertise in React and GraphQL",
+            "Experience building scalable UIs in a financial or SaaS context",
+            "Familiarity with testing libraries (e.g., RTL, Vitest)",
+            "Code optimization and refactoring skills",
+            "Excellent communication and documentation practices"
+        ],
+        "postedAt": "2025-04-28",
+        "salary": "$140k",
+        "skills": [
+            "React",
+            "GraphQL",
+            "Testing Library",
+            "API Integration",
+            "Financial Interfaces",
+            "Code Quality",
+            "Scalability"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Frontend Mentor",
+        "company": "Frontend Mentor",
+        "location": "Remote",
+        "type": "Contract",
+        "description": "Provide hands-on feedback to learners submitting frontend challenges. Use your experience to help guide juniors on code structure, semantics, and best practices while fostering an inclusive and constructive learning environment.",
+        "requirements": [
+            "Strong knowledge of React and modern frontend standards",
+            "Experience mentoring or teaching frontend concepts",
+            "Clear and concise written communication",
+            "Empathy and patience with beginners",
+            "Familiarity with HTML/CSS accessibility and semantics"
+        ],
+        "postedAt": "2025-04-22",
+        "salary": "$30/hr",
+        "skills": [
+            "Mentorship",
+            "React",
+            "Feedback Writing",
+            "Code Review",
+            "Semantics",
+            "HTML5/CSS3",
+            "Soft Skills"
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Next.js Developer",
+        "company": "Vercel",
+        "location": "Remote",
+        "type": "Full-Time",
+        "description": "Build and optimize production-grade applications on the Vercel platform. Implement static generation, serverless APIs, and progressive enhancement using Next.js. Collaborate with edge performance teams.",
+        "requirements": [
+            "Deep understanding of Next.js (SSR, ISR, SSG)",
+            "Experience with serverless and edge computing",
+            "Strong frontend fundamentals (HTML/CSS/JS)",
+            "Excellent Git and collaboration habits",
+            "Performance testing and lighthouse audits"
+        ],
+        "postedAt": "2025-04-18",
+        "salary": "$135k",
+        "skills": [
+            "Next.js",
+            "Serverless",
+            "Edge Functions",
+            "Web Vitals",
+            "Frontend Fundamentals",
+            "Vercel",
+            "Performance Monitoring"
+        ]
+    },
+    {
+        "id": 17,
+        "title": "UI Prototyper",
+        "company": "Meta",
+        "location": "Menlo Park, CA",
+        "type": "Contract",
+        "description": "Rapidly prototype UI/UX concepts for internal product testing. Use React and animation libraries to simulate end-user experience and validate designs.",
+        "requirements": [
+            "Expertise in prototyping tools and frameworks",
+            "Experience with Framer Motion or GSAP",
+            "Ability to convert design specs into functional prototypes",
+            "Quick iteration and versioning practices",
+            "Strong visual and interaction design sense"
+        ],
+        "postedAt": "2025-04-10",
+        "salary": "$85/hr",
+        "skills": [
+            "React",
+            "Prototyping",
+            "Animation Libraries",
+            "GSAP",
+            "Framer Motion",
+            "UI Experimentation",
+            "Rapid Iteration"
+        ]
+    },
+    {
+        "id": 18,
+        "title": "Frontend QA Intern",
+        "company": "Slack",
+        "location": "Remote",
+        "type": "Internship",
+        "description": "Assist the QA team in testing and validating frontend builds across different environments. Learn how to write UI test scripts, report bugs, and verify patch releases for Slack’s communication platform.",
+        "requirements": [
+            "Interest in software quality assurance",
+            "Basic HTML/CSS/JS understanding",
+            "Familiarity with browser dev tools",
+            "Strong attention to UI/UX details",
+            "Good documentation habits"
+        ],
+        "postedAt": "2025-04-05",
+        "salary": "$2,000/month",
+        "skills": [
+            "Testing",
+            "Bug Reporting",
+            "UI Validation",
+            "Browser Tools",
+            "Communication",
+            "HTML/CSS",
+            "Cross-Device Testing"
+        ]
+    },
+    {
+        "id": 19,
+        "title": "Frontend Systems Engineer",
+        "company": "Google",
+        "location": "Mountain View, CA",
+        "type": "Full-Time",
+        "description": "Work on frontend infrastructure systems supporting Google's suite of applications. Focus on component library development, build pipelines, and shared tooling.",
+        "requirements": [
+            "5+ years in large-scale frontend engineering",
+            "Experience with monorepos and build tools (e.g., Webpack, Turborepo)",
+            "Strong TypeScript and testing discipline",
+            "Background in performance and telemetry collection",
+            "Excellent systems thinking and documentation"
+        ],
+        "postedAt": "2025-04-01",
+        "salary": "$160k",
+        "skills": [
+            "Systems Engineering",
+            "Monorepo Management",
+            "TypeScript",
+            "Build Tools",
+            "Performance Logging",
+            "Tooling Infrastructure",
+            "Documentation"
+        ]
+    },
+    {
+        "id": 20,
+        "title": "Junior UI Developer",
+        "company": "Dribbble",
+        "location": "Remote",
+        "type": "Full-Time",
+        "description": "Work with Dribbble’s design team to implement pixel-perfect interfaces and design explorations. Ideal for junior developers transitioning from design to frontend code.",
+        "requirements": [
+            "Strong understanding of HTML/CSS and Figma handoffs",
+            "Entry-level React and JavaScript experience",
+            "Pixel-perfect attention to detail",
+            "Basic Git version control skills",
+            "Ability to work from detailed mockups"
+        ],
+        "postedAt": "2025-03-28",
+        "salary": "$65k",
+        "skills": [
+            "HTML",
+            "CSS",
+            "React (Junior)",
+            "Figma",
+            "Design Handoff",
+            "Pixel Perfection",
+            "Version Control"
+        ]
+    }
+]

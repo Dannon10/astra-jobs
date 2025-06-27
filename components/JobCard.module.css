@@ -1,0 +1,121 @@
+.jobCard {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  width: 38rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.jobCard:hover {
+  transform: scale(1.5);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.jobCardDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.jobCardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jobType {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #E5E7EB;
+  color: #4B5563;
+  font-size: 1.5rem;
+}
+
+.internship {
+  background-color: #DBEAFE;
+  color: #0051ff;
+}
+
+.fulltime {
+  background-color: #D1FAE5;
+  color: #0BA02C;
+}
+
+.parttime {
+  background-color: #FEF3C7;
+  color: #92400E;
+}
+
+.contract {
+  background-color: #EDE9FE;
+  color: #6B21A8;
+}
+
+.jobTitle {
+  color: #18191C;
+  font-size: 1.75rem;
+}
+
+.jobSalary {
+  font-size: 1.35rem;
+}
+
+.jobCompany {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  color: #18191C;
+}
+
+.jobLocation {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.jobPosted {
+  font-size: 1.35rem;
+  color: #6B7280;
+}
+
+@media screen and (max-width: 1024px) {
+  .jobCard {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .jobCard {
+    height: auto;
+    padding: 2rem;
+  }
+
+  .jobCardHeader {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .jobCompany {
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .jobTitle {
+    font-size: 1.5rem;
+  }
+
+  .jobTitleH1 {
+    font-size: 2.2rem;
+  }
+}

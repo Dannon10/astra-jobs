@@ -1,0 +1,133 @@
+body.dark {
+    background-color: #111827;
+    color: #f3f4f6;
+}
+
+body.dark .navbar-container {
+    background-color: #1f2937;
+    border-bottom: 1px solid #f3f4f6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+body.dark .logo {
+    color: #f3f4f6;
+}
+
+body.dark .search-bar {
+    background-color: #1e293b;
+    border-color: #4b5563;
+    color: #f3f4f6;
+}
+
+body.dark .searchBar:hover::placeholder {
+    color: #9ca3af;
+}
+
+body.dark .filter-header {
+    background-color: #111827;
+    border: none;
+    color: #f3f4f6;
+}
+
+body.dark .filter-button {
+    background-color: #111827;
+    border: none;
+    color: #e5e7eb;
+}
+
+body.dark .filter-button:hover {
+    background-color: #374151;
+    border-color: #60a5fa;
+}
+
+body.dark .filter-dropdown {
+    background-color: #1e293b;
+    border-color: #374151;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+body.dark .filter-checkbox {
+    border-bottom: 1px solid #374151;
+}
+
+body.dark .filter-checkbox:hover {
+    background-color: #374151;
+}
+
+body.dark .job-card {
+    background-color: #1f2937;
+    color: #f9fafb;
+}
+
+body.dark .job-card:hover {
+    transform: scale(1.5);
+    box-shadow: 0 8px 24px rgba(132, 131, 131, 0.082);
+    cursor: pointer;
+}
+
+body.dark .job-card-header h3,
+body.dark .job-company,
+body.dark .job-head h1,
+body.dark .job-head p,
+body.dark .job-title h1,
+body.dark .job-title p {
+    color: #f3f4f6;
+}
+
+body.dark .job-salary,
+body.dark .job-location,
+body.dark .job-posted,
+body.dark .job-meta p {
+    color: #d1d5db;
+}
+
+body.dark .job-type {
+    background-color: #374151;
+    color: #d1d5db;
+}
+
+body.dark .internship {
+    background-color: #1e40af;
+    color: #93c5fd;
+}
+
+body.dark .fulltime {
+    background-color: #065f46;
+    color: #6ee7b7;
+}
+
+body.dark .parttime {
+    background-color: #92400e;
+    color: #fde68a;
+}
+
+body.dark .contract {
+    background-color: #5b21b6;
+    color: #ddd6fe;
+}
+
+body.dark .job-detail-container {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+body.dark .job-description p,
+body.dark .requirements ul,
+body.dark .skills ul {
+    color: #d1d5db;
+}
+
+body.dark .back-button button {
+    background-color: #1f2937;
+    color: #f3f4f6;
+}
+
+body.dark .back-button button:hover {
+    background-color: #374151;
+}
+
+body.dark .footer {
+    background-color: #0f172a;
+    border-color: #374151;
+    color: #e5e7eb;
+}
